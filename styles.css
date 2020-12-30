@@ -1,0 +1,276 @@
+html{
+  height: 125vh;
+}
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+  line-height: 1.5;
+}
+.bgimg-1{
+  background-image: url(./assests/kastgradient-violet-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+
+}
+.w3-bar .w3-button{
+  padding: 16px;
+}
+
+.w3-top
+{ 
+    /* background:linear-gradient(90deg, rgb(98, 28, 119) 0%, #1b276d 50%, rgb(13, 78, 138) 100%);
+    width:100vw; */
+    color:white
+  
+}
+ 
+.w3-btn,.w3-button{display:inline-block;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;}
+ 
+/* .w3-left{float:left!important} */
+.w3-right{float:right!important}
+       
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+.center{
+  text-align: center;
+  margin-left: 145px;
+  margin-right: 145px;
+
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.buttonz{
+  color: white;
+}
+/* header{
+   position: relative;
+   right: 0;
+   margin: 0px 0px 0px 0px;
+
+} */
+
+/* .buttons{
+  margin: 0;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.buttonss{
+  margin: 0;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+.button{
+   margin: 0;
+  position: absolute; 
+  top: 110%;
+  left: 50%;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 153, 0); 
+  /* background-color: orange; */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  width: 200px;
+
+
+}
+.openkast{
+  border: 1px solid white;
+  padding: 5px !important;
+  border-radius: 5%;
+}
+.bar{
+  margin-right: 20px;
+}
+.bottom{
+  height: 75vh;
+  text-align: center;
+}
+
+section.pic{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: white;
+
+}
+
+.laptop{
+  width: 45%;
+}
+
+section.firstpara{
+  text-align: center;
+  color: white;
+  font-size: 21px;
+  margin-left: 470px;
+  margin-right:470px ;
+}
+section.title{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+.logo1{
+  width: 175px;
+ 
+}
+.logo1:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.grid{
+text-align: center;
+  color:rgb(44, 45, 46);
+  font-size: 40px;
+  margin-left: 400px;
+  margin-right:400px ;
+  margin-top: 100px;
+}
+.lastpara{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+/* .fbutton{
+  background-color: orange;
+} */
+/* .white
+{
+ 
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+} */
+
+/* body{
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+nav{
+    height: 50px;
+} */
+
+/* nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: right;
+    flex:1;
+    font-size: 1.5rem
+} */
+
+/* .dropbtn {
+                 
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* Dropdown Content (Hidden by Default) */
+  /* .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    /* min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;} */
+  
+  /* Links inside the dropdown */
+  /* .dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    /* text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover /*{background-color: #f1f1f1} */
+
+  /* Show the dropdown menu on hover */
+  /* .dropdown:hover .dropdown-content {
+    display: block;
+  }   */
+  
+/*  
+
+
+  .dropbtn {
+   
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }*/
+  
+  /* Dropdown Content (Hidden by Default) 
+  .dropdown-content {
+    display: none;
+    position: absolute;*/
+    /* background-color: #f9f9f9; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  
+  /* Links inside the dropdown
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+   */
+  /* Change color of dropdown links on hover 
+  .dropdown-content a:hover {background-color: #f1f1f1}*/
+  
+  /* Show the dropdown menu on hover 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
